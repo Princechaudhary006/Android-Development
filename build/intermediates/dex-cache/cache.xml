@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.3.0_4fd60aa52fb602a2956c530efc2363bed5d1bc5f.jar" />
+    </item>
+    <item
+        jar="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.3.0_169b7897f59894c4745164a352c944e44ef1b296.jar" />
+    </item>
+    <item
+        jar="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.3.0_dbf0cea590a8239324f1bbd4b7dacdcfc0a54bbe.jar" />
+    </item>
+    <item
+        jar="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_0cbc21d1f3ce1a84ea8b542456af01ad4d32c2e5.jar" />
+    </item>
+    <item
+        jar="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_836cab22646509346c0a301489dbf15f6b3f5365.jar" />
+    </item>
+    <item
+        jar="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.3.0_ab142c571c414928b992aa4fff6f7a55ed42912b.jar" />
+    </item>
+    <item
+        jar="C:\Users\tmole\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_ec39400736814decc68c7666710e68a1a355072f.jar" />
+    </item>
+    <item
+        jar="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.3.0_edb9674100a20118160c5048402be402df5f3c3d.jar" />
+    </item>
+    <item
+        jar="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-8.4.0_8b140cae99175665af64c274f3b40f202fe40519.jar" />
+    </item>
+    <item
+        jar="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_9920974026117b35d86f5358df68069f6d5c5b3c.jar" />
+    </item>
+    <item
+        jar="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.3.0_fa9f5fdaec46374074899af0407eef4214f7b0e8.jar" />
+    </item>
+
+</items>

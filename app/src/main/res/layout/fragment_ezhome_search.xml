@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EzHomeSearchFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingEnd="@dimen/activity_horizontal_margin"
+        android:paddingStart="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:id="@+id/tv_owner_title"
+            style="@style/EzHomeSearchTextView"
+            android:layout_weight="1.5"
+            android:maxEms="6"
+            android:singleLine="true"
+            android:text="@string/header_owner"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_address_title"
+            style="@style/EzHomeSearchTextView"
+            android:layout_weight="2"
+            android:maxEms="6"
+            android:singleLine="true"
+            android:text="@string/header_address"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_area_title"
+            style="@style/EzHomeSearchTextView"
+            android:layout_weight="1"
+            android:maxEms="6"
+            android:singleLine="true"
+            android:text="@string/header_area"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_rent_title"
+            style="@style/EzHomeSearchTextView"
+            android:layout_weight="1"
+            android:maxEms="6"
+            android:singleLine="true"
+            android:text="@string/header_ezprice"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View style="@style/Divider" />
+
+    <TextView
+        android:id="@+id/noSearchResults"
+        style="@style/NoItemsFound"
+        android:text="@string/no_search_results" />
+
+    <ListView
+        android:id="@+id/lv_ehomesearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.iit.cs442.team15.ehome.AccountSettingsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/accountHeader"
+            style="@style/Header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/header_account" />
+
+        <View
+            android:id="@+id/accountDivider"
+            style="@style/Divider"
+            android:layout_below="@id/accountHeader" />
+
+        <EditText
+            android:id="@+id/accountEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/accountDivider"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/accountNewPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/accountEmail"
+            android:fontFamily="sans-serif"
+            android:hint="@string/hint_new_password"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/accountConfirmNewPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/accountNewPassword"
+            android:fontFamily="sans-serif"
+            android:hint="@string/hint_confirm_new_password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/contactHeader"
+            style="@style/Header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/accountConfirmNewPassword"
+            android:text="@string/header_contact" />
+
+        <View
+            android:id="@+id/contactDivider"
+            style="@style/Divider"
+            android:layout_below="@id/contactHeader" />
+
+        <EditText
+            android:id="@+id/accountName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contactDivider"
+            android:hint="@string/hint_name"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/accountPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/accountName"
+            android:hint="@string/hint_phone"
+            android:inputType="phone"
+            android:maxLines="1" />
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:textSize="18sp"
+            android:layout_below="@id/accountPhone"
+            android:text="@string/button_update_account" />
+
+    </RelativeLayout>
+
+</ScrollView>

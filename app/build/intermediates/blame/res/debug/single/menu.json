@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\tmole\\AndroidStudioProjects\\cs442-team15-project-ehome\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_ezhome_search.xml",
+        "source": "C:\\Users\\tmole\\AndroidStudioProjects\\cs442-team15-project-ehome\\app\\src\\main\\res\\menu\\fragment_ezhome_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\tmole\\AndroidStudioProjects\\cs442-team15-project-ehome\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_search_history.xml",
+        "source": "C:\\Users\\tmole\\AndroidStudioProjects\\cs442-team15-project-ehome\\app\\src\\main\\res\\menu\\fragment_search_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\tmole\\AndroidStudioProjects\\cs442-team15-project-ehome\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_ezhome_search_online.xml",
+        "source": "C:\\Users\\tmole\\AndroidStudioProjects\\cs442-team15-project-ehome\\app\\src\\main\\res\\menu\\fragment_ezhome_search_online.xml"
+    },
+    {
+        "merged": "C:\\Users\\tmole\\AndroidStudioProjects\\cs442-team15-project-ehome\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_ezhome_details.xml",
+        "source": "C:\\Users\\tmole\\AndroidStudioProjects\\cs442-team15-project-ehome\\app\\src\\main\\res\\menu\\activity_ezhome_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\tmole\\AndroidStudioProjects\\cs442-team15-project-ehome\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "C:\\Users\\tmole\\AndroidStudioProjects\\cs442-team15-project-ehome\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    }
+]

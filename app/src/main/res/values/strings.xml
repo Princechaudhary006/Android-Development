@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">eHome</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_admin_add">Add Apartment</string>
+    <string name="nav_ezhome_search">ezHome Search</string>
+    <string name="nav_search_online">Web Search</string>
+    <string name="nav_saved_searches">Search History</string>
+    <string name="nav_account_settings">Account Settings</string>
+    <string name="nav_logout">Logout</string>
+
+    <string name="nav_content_description_user_image">Profile Picture</string>
+
+    <!-- Account forms in LoginActivity, RegisterActivity and AccountSettingsFragment -->
+    <string name="button_create_account">Create Account</string>
+    <string name="button_login">Log In</string>
+    <string name="button_update_account">Update Account</string>
+
+    <string name="header_account">Account</string>
+    <string name="header_contact">Contact</string>
+    <string name="header_confirm">Confirm Changes</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_new_password">New Password (Optional)</string>
+    <string name="hint_confirm_new_password">Confirm New Password</string>
+    <string name="hint_current_password">Current Password</string>
+
+    <string name="error_missing_field">This field is required.</string>
+    <string name="error_invalid_email">Please enter a valid email address.</string>
+    <string name="error_email_not_unique">An account with this email already exists.</string>
+    <string name="error_password_short">Password must be at least %d characters long.</string>
+    <string name="error_password_match">Passwords do not match.</string>
+    <string name="error_password_short_match">Passwords must be at least %d characters long and match each other.</string>
+    <string name="error_invalid_name">Please enter a valid name.</string>
+    <string name="error_invalid_phone">Please enter a valid phone number.</string>
+
+    <string name="toast_login_failed">Email and password do not match.</string>
+    <string name="toast_account_created">Account successfully created.</string>
+    <string name="toast_account_updated">Account successfully updated.</string>
+    <string name="toast_account_not_updated">Error: account update failed.</string>
+
+    <!-- PasswordDialog -->
+    <string name="password_dialog_title">Authentication</string>
+    <string name="password_dialog_message">Please enter your current password:</string>
+    <string name="password_dialog_retry_title">Error</string>
+    <string name="password_dialog_retry_message">The password was incorrect.\nPlease try again.</string>
+    <string name="password_dialog_retry_positive">Retry</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_favorites_header">Favorites</string>
+    <string name="dashboard_no_favorites">You have no favorites.</string>
+    <string name="dashboard_recommendations_header">Recommendations</string>
+
+    <!-- ezHome Apartment Details -->
+    <string name="title_activity_ezhome_search_details">Apartment Details</string>
+
+    <string name="menu_favorites">Add to favorites</string>
+
+    <string name="button_ezprice_details">Details</string>
+
+    <string name="ezhome_address">Address: %s</string>
+    <string name="ezhome_area">Area: %.2f sq ft</string>
+    <string name="ezhome_bedrooms">Bedrooms: %d</string>
+    <string name="ezhome_bathrooms">Bathrooms: %d</string>
+    <string name="ezhome_parking">Parking: </string>
+    <string name="ezhome_gym">Gym: </string>
+    <string name="ezhome_owner">Owner Name: %s</string>
+    <string name="ezhome_ezprice">ezPrice: $%.2f</string>
+    <string name="ezhome_rent">Rent: $%.2f</string>
+    <string name="ezhome_totalCost">Total Cost: $%.2f</string>
+    <string name="ezhome_thermostat">Heating &amp; AC: $%.2f</string>
+    <string name="ezhome_cable">Cable: $%.2f</string>
+    <string name="ezhome_internet">Internet: $%.2f</string>
+    <string name="ezhome_gas">Gas: $%.2f</string>
+    <string name="ezhome_electricity">Electricity: $%.2f</string>
+
+    <!-- ezHome Search Options -->
+    <string name="title_activity_ezhome_search_options">Search Options</string>
+
+    <string name="button_search">Search</string>
+    <string name="header_id">ID</string>
+    <string name="header_owner">Owner</string>
+    <string name="header_phone">Phone</string>
+    <string name="header_address">Address</string>
+    <string name="header_ezprice">ezPrice</string>
+    <string name="header_beds">Beds</string>
+    <string name="header_bathrooms">Bathrooms</string>
+    <string name="header_area">Sq Ft</string>
+    <string name="header_options">Options</string>
+
+    <string name="hint_min">Min</string>
+    <string name="hint_max">Max</string>
+    <string name="hint_option_gym">Gym</string>
+    <string name="hint_option_parking">Parking</string>
+
+    <string name="error_invalid_input">Invalid input.</string>
+    <string name="error_max_rent_too_low">Max rent must be higher than min rent.</string>
+    <string name="error_max_area_too_low">Max sq ft must be higher than min sq ft.</string>
+    <string name="error_invalid_location">Location not found.</string>
+    <string name="error_missing_distance">This filed is required if location is set.</string>
+
+    <string name="toast_max_beds">Max bedrooms must be >= to min bedrooms.</string>
+    <string name="toast_max_bathrooms">Max bathrooms must be >= to min bathrooms.</string>
+
+    <string-array name="select_min_rooms">
+        <item>Min</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="select_max_rooms">
+        <item>Max</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <!-- Search results -->
+    <string name="menu_search_options">Filter&#8230;</string>
+
+    <string-array name="order_method">
+        <item>Rent(low to high)</item>
+        <item>Area(high to low)</item>
+    </string-array>
+
+    <string name="format_rent">$%.0f</string>
+    <string name="format_area">%.0f sq ft</string>
+
+    <string name="no_search_results">No apartments found.</string>
+
+    <!-- Search History -->
+    <string name="menu_clear_history">Clear search history</string>
+
+    <string name="history_none">No search history available.</string>
+
+    <string name="history_range_min">%d+</string>
+    <string name="history_range_max">1 to %d</string>
+    <string name="history_range_min_max">%1$d to %2$d</string>
+    <string name="history_range_equal">%d</string>
+
+    <string name="history_type_ezhome">ezHome</string>
+    <string name="history_type_web">Web</string>
+
+    <string name="history_price">$%s</string>
+    <plurals name="history_beds">
+        <item quantity="one">%s bedroom</item>
+        <item quantity="other">%s bedrooms</item>
+    </plurals>
+    <plurals name="history_barthrooms">
+        <item quantity="one">%s bathroom</item>
+        <item quantity="other">%s bathrooms</item>
+    </plurals>
+    <string name="history_area">%s sq ft</string>
+
+    <plurals name="history_options">
+        <item quantity="one">%1$d option</item>
+        <item quantity="other">%1$d options</item>
+    </plurals>
+
+    <string name="history_location">Within %1$.2f mi. of %2$s</string>
+
+    <!-- Search Online -->
+    <string name="header_ezprice_online">Rent</string>
+    <string name="hint_min_online">Min</string>
+    <string name="hint_max_online">Max</string>
+    <string name="header_area_online">Location</string>
+    <string name="hint_location_within">Within </string>
+    <string name="hint_location_radius">radius</string>
+    <string name="hint_location_miles_of"> mi. of:</string>
+    <string name="hint_location">Location</string>
+
+</resources>

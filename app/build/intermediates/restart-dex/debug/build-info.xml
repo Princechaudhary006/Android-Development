@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="420dpi"
+    format="7"
+    timestamp="796347139216640" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build timestamp="791256900434688" >
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="795558021213696" >
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_ec39400736814decc68c7666710e68a1a355072f\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0580ba20922457b2b6beae2e0034b9e603ad4437\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_7c6536b76a957a0280483c96a0b2e5ef0dce70dc\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-8.4.0_8b140cae99175665af64c274f3b40f202fe40519\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_9920974026117b35d86f5358df68069f6d5c5b3c\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_dbf0cea590a8239324f1bbd4b7dacdcfc0a54bbe\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.3.0_4fd60aa52fb602a2956c530efc2363bed5d1bc5f\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_ab142c571c414928b992aa4fff6f7a55ed42912b\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_0cbc21d1f3ce1a84ea8b542456af01ad4d32c2e5\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_836cab22646509346c0a301489dbf15f6b3f5365\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_169b7897f59894c4745164a352c944e44ef1b296\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.3.0_edb9674100a20118160c5048402be402df5f3c3d\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\tmole\AndroidStudioProjects\cs442-team15-project-ehome\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_fa9f5fdaec46374074899af0407eef4214f7b0e8\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="796347139216640" />
+
+</instant-run>

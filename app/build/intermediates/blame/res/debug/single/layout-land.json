@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\tmole\\AndroidStudioProjects\\cs442-team15-project-ehome\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\fragment_dashboard.xml",
+        "source": "C:\\Users\\tmole\\AndroidStudioProjects\\cs442-team15-project-ehome\\app\\src\\main\\res\\layout-land\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\tmole\\AndroidStudioProjects\\cs442-team15-project-ehome\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_login.xml",
+        "source": "C:\\Users\\tmole\\AndroidStudioProjects\\cs442-team15-project-ehome\\app\\src\\main\\res\\layout-land\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\tmole\\AndroidStudioProjects\\cs442-team15-project-ehome\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_ezhome_search_details.xml",
+        "source": "C:\\Users\\tmole\\AndroidStudioProjects\\cs442-team15-project-ehome\\app\\src\\main\\res\\layout-land\\activity_ezhome_search_details.xml"
+    }
+]

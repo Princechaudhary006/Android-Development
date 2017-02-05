@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/activity_horizontal_margin"
+    android:paddingStart="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:id="@+id/tv_owner"
+        style="@style/EzHomeSearchTextView"
+        android:layout_weight="1.5"
+        android:text="@string/header_owner" />
+
+    <Space
+        android:layout_width="4dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        style="@style/EzHomeSearchTextView"
+        android:layout_weight="2"
+        android:text="@string/header_address" />
+
+    <Space
+        android:layout_width="4dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_rent"
+        style="@style/EzHomeSearchTextView"
+        android:layout_weight="1"
+        android:text="@string/header_ezprice" />
+
+</LinearLayout>

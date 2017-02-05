@@ -1,0 +1,99 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/CustomButtonStyle</item>
+        <item name="android:editTextStyle">@style/CustomEditText</item>
+        <item name="android:spinnerStyle">@style/CustomSpinner</item>
+        <item name="android:spinnerItemStyle">@style/CustomSpinnerItem</item>
+        <item name="android:textViewStyle">@style/CustomTextView</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomButtonStyle" parent="android:Widget.Button">
+        <!-- TODO note that style for emulator version is defined in styles.xml (v21) -->
+    </style>
+
+    <style name="CustomEditText" parent="android:Widget.EditText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textColorHint">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="CustomSpinner" parent="android:Widget.Spinner">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="CustomSpinnerItem" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="CustomTextView" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <!-- Custom styles -->
+    <style name="Header">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1.5dp</item>
+        <item name="android:background">@color/colorDivider</item>
+    </style>
+
+    <style name="NoItemsFound">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <!-- ezHome Search Options -->
+    <style name="NumInput">
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">9</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="To">
+        <item name="android:gravity">center</item>
+        <item name="android:text">-</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <!-- ezHome Search -->
+    <style name="EzHomeSearchTextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minLines">2</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!-- Search History -->
+    <style name="SearchHistoryTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">_</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>
